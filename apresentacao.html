@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Apresentação Pessoal</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #ffe4e1;
+      }
+      h1,
+      h2,
+      p {
+        color: #ff6b81;
+      }
+
+      h5 {
+        font-weight: 600;
+      }
+
+      .carousel-caption {
+        height: 200px;
+      }
+      .carousel-inner .carousel-item {
+        background-color: #f8d7da; /* cor de fundo para os slides */
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .profile-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2em;
+      }
+      .profile-header img {
+        max-width: 150px;
+        margin-right: 1em;
+        border-radius: 50%;
+      }
+      .profile-header .name {
+        font-size: 2em;
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-header">
+        <img
+          src="https://avatars.githubusercontent.com/u/94017826?v=4"
+          alt="Luiza Oliveria Alves Ferreira"
+        />
+        <div>
+          <p class="name">Luiza Oliveria Alves Ferreira</p>
+          <p>luiza.oaf@hotmail.com</p>
+        </div>
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide my-5"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sou formada em pedagogia pela UDF, finalizei dois cursos online de Desenvolvimento de Software, atualmente estudo Análise e Desenvolvimento de Sistemas pelo SENAC - DF</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati officia qui impedit dignissimos optio quis totam aut
+                enim a odio at laborum, aliquid praesentium iure perferendis
+                neque id architecto voluptate.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Inglês intermediário e cursando.</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati officia qui impedit dignissimos optio quis totam aut
+                enim a odio at laborum, aliquid praesentium iure perferendis
+                neque id architecto voluptate.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Conhecimentos em Java/JavaScript/MySQL/HTML</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati officia qui impedit dignissimos optio quis totam aut
+                enim a odio at laborum, aliquid praesentium iure perferendis
+                neque id architecto voluptate..
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
